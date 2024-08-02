@@ -1,0 +1,12 @@
+package com.absalao.erp.repository;
+
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+public class SchemaGeneration {
+	
+	public static void main() {
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("AlgaWorksPU")
+	} 
+
+}

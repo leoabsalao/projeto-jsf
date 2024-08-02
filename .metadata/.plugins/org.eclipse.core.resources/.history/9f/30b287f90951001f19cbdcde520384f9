@@ -1,0 +1,5 @@
+package com.absalao.erp.model;
+
+public enum TipoEmpresa {
+
+}
