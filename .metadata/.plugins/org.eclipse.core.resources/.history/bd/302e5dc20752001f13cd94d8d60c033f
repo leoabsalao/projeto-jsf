@@ -1,0 +1,18 @@
+package com.absalao.erp.repository;
+
+import java.io.Serializable;
+
+import javax.persistence.EntityManager;
+
+public class RamoAtividades implements Serializable{
+	private static final long serialVersionUID = 1L;
+	
+	private EntityManager manager;
+
+	public RamoAtividades() {}
+	
+	public RamoAtividades() {
+		
+	}
+	
+}

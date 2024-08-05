@@ -1,0 +1,32 @@
+package com.absalao.erp.repository;
+
+import java.io.Serializable;
+import java.util.List;
+
+import javax.persistence.EntityManager;
+
+import com.absalao.erp.model.Empresa;
+
+public class Empresas implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	private EntityManager manager;
+	
+	public Empresas() {
+	}
+	
+	public Empresas(EntityManager manager) {
+		this.manager = manager;
+	}
+	
+	public Empresa porId(Long id) {
+		return null;
+	}
+	
+	public List<Empresa> pesquisar(String nome){
+		return null;
+	}
+	
+	
+
+}
