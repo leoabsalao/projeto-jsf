@@ -1,4 +1,4 @@
-	package com.absalao.erp.model;
+package com.absalao.erp.model;
 
 import java.io.Serializable;
 import java.util.Date;
