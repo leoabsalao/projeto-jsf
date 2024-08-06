@@ -4,3 +4,7 @@ D:\DEV\PROJETOS\JSF\projeto-jsf\src\main\java\com\absalao\erp\model\TipoEmpresa.
 D:\DEV\PROJETOS\JSF\projeto-jsf\src\main\java\com\absalao\erp\repository\Empresas.java
 D:\DEV\PROJETOS\JSF\projeto-jsf\src\main\java\com\absalao\erp\repository\RamoAtividades.java
 D:\DEV\PROJETOS\JSF\projeto-jsf\src\main\java\com\absalao\erp\repository\SchemaGeneration.java
+D:\DEV\PROJETOS\JSF\projeto-jsf\src\main\java\com\absalao\erp\service\CadastroEmpresaService.java
+D:\DEV\PROJETOS\JSF\projeto-jsf\src\main\java\com\absalao\erp\util\EntityManagerProducer.java
+D:\DEV\PROJETOS\JSF\projeto-jsf\src\main\java\com\absalao\erp\util\Transacional.java
+D:\DEV\PROJETOS\JSF\projeto-jsf\src\main\java\com\absalao\erp\util\TransacionalInterceptor.java
