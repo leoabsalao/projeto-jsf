@@ -6,7 +6,6 @@ INDEX VERSION 1.134+D:\DEV\PROJETOS\JSF\.metadata\.plugins\org.eclipse.jdt.core
 3574955980.index
 2023885908.index
 3869270382.index
-1766801398.index
 2600940747.index
 3004904228.index
 1404523543.index

@@ -1,0 +1,17 @@
+package com.absalao.erp.controller;
+
+import java.io.Serializable;
+
+import javax.enterprise.context.ApplicationScoped;
+import javax.enterprise.context.RequestScoped;
+import javax.enterprise.context.SessionScoped;
+import javax.inject.Named;
+
+@Named
+@ApplicationScoped
+public class GestaoEmpresasBean implements Serializable {
+     	private static final long serialVersionID = 1L;
+
+	
+	
+}
