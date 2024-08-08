@@ -10,7 +10,6 @@
     <fullyQualifiedTypeName name="javax.persistence.JoinColumns"/>
     <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
     <fullyQualifiedTypeName name="javax.persistence.Enumerated"/>
-    <fullyQualifiedTypeName name="javax.persistence.Column"/>
     <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
     <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
     <fullyQualifiedTypeName name="javax.persistence.Query"/>
@@ -30,4 +29,5 @@
     <fullyQualifiedTypeName name="com.absalao.erp.model.TipoEmpresa"/>
     <fullyQualifiedTypeName name="com.absalao.erp.model.Empresa"/>
     <fullyQualifiedTypeName name="javax.faces.bean.RequestScoped"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
 </qualifiedTypeNameHistroy>
