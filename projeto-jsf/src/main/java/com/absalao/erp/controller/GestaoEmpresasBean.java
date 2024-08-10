@@ -1,39 +1,35 @@
 package com.absalao.erp.controller;
 
 import java.io.Serializable;
+import java.util.List;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.enterprise.context.RequestScoped;
-import javax.enterprise.context.SessionScoped;
+import javax.faces.bean.RequestScoped;
 import javax.faces.bean.ViewScoped;
+import javax.inject.Inject;
 import javax.inject.Named;
 
+import org.jboss.weld.context.ejb.Ejb;
+
 import com.absalao.erp.model.Empresa;
-import com.absalao.erp.model.TipoEmpresa;
+import com.absalao.erp.repository.Empresas;
+import com.absalao.erp.util.Transacional;
 
 @Named
-@RequestScoped
+@ViewScoped
 public class GestaoEmpresasBean implements Serializable {
      	private static final long serialVersionID = 1L;
      	
-     private Empresa empresa = new Empresa();	
-     
-     public void salvar() {
-    	 System.out.println("Razão Social: " + empresa.getRazaoSocial() + " - Nome Fantasia: " + empresa.getNomeFantasia() 
-    	 					+ " - Tipo empresa: " + empresa.getTipo());
-     }
-     
-     public String ajuda() {
-    	 return "AjudaGestaoEmpresas?faces-redirect=true";
-     }
-     
-     public Empresa getEmpresa() {
-		return empresa;
-	 }
-     
-     public TipoEmpresa[] getTiposEmpresa() {
-    	 return TipoEmpresa.values();
-     }
-    
+    @Inject
+    private Empresas empresas;   	
+     	  
+	private List<Empresa> listaEmpresas;
+	
+	public void todasEmpresas() {
+		listaEmpresas = empresas.todas();
+	}
+
+	public List<Empresa> getListaEmpresas() {
+		return listaEmpresas;
+	}
 	
 }
