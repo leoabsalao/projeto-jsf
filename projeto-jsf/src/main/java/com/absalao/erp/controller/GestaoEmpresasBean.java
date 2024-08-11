@@ -3,16 +3,12 @@ package com.absalao.erp.controller;
 import java.io.Serializable;
 import java.util.List;
 
-import javax.enterprise.context.RequestScoped;
 import javax.faces.view.ViewScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-import org.jboss.weld.context.ejb.Ejb;
-
 import com.absalao.erp.model.Empresa;
 import com.absalao.erp.repository.Empresas;
-import com.absalao.erp.util.Transacional;
 
 @Named
 @ViewScoped
