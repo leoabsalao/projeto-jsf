@@ -15,11 +15,13 @@
     </f:metadata>
 
 	<h:form> 
+	  <p:messages autoUpdate="true" />
+	  
 	  <p:toolbar>
 	  	<f:facet name="left">
-		  	<p:inputText  placeholder="Digite aqui um termo de pesquisa...." size="30" />
+		  	<p:inputText  placeholder="Digite aqui um termo de pesquisa...." size="30" value="#{gestaoEmpresasBean.termoPesquisa}" />
 		  	
-		  	<p:commandButton value="Pesquisar" icon="fa fa fa-search"   />
+		  	<p:commandButton value="Pesquisar" icon="fa fa-search" actionListener="#{gestaoEmpresasBean.pesquisar()}" update="empresaDataTable" />
 		  	<span class="ui-separator">
 		  		<span class="ui-icon ui-icon-grip-dotted-vertical" ></span>
 		  	</span>
@@ -41,7 +43,7 @@
 	  
 	  <p:spacer height="8px" />
 	  
- 	  <p:dataTable value="#{gestaoEmpresasBean.listaEmpresas}" var="empresa" 
+ 	  <p:dataTable id="empresaDataTable" value="#{gestaoEmpresasBean.listaEmpresas}" var="empresa" 
  	 			 emptyMessage="Nenhuma empresa encontrada."
  	 			 paginator="true" rows="10" paginatorPosition="bottom">
  		<p:column headerText="Razão Social" sortBy="#{empresa.razaoSocial}" >

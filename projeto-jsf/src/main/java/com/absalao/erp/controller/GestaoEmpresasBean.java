@@ -9,6 +9,7 @@ import javax.inject.Named;
 
 import com.absalao.erp.model.Empresa;
 import com.absalao.erp.repository.Empresas;
+import com.absalao.erp.util.FacesMessages;
 
 @Named
 @ViewScoped
@@ -20,12 +21,33 @@ public class GestaoEmpresasBean implements Serializable {
      	  
 	private List<Empresa> listaEmpresas;
 	
+	private String termoPesquisa;
+	
+	@Inject
+	private FacesMessages messages;
+	
+	public void pesquisar() {
+		listaEmpresas = empresas.pesquisar(termoPesquisa);
+		
+		if (listaEmpresas.isEmpty()) {
+			messages.info("Sua consulta não retornou registros.");
+		}
+	}
+	
 	public void todasEmpresas() {
 		listaEmpresas = empresas.todas();
 	}
 
 	public List<Empresa> getListaEmpresas() {
 		return listaEmpresas;
+	}
+	
+	public String getTermoPesquisa() {
+		return termoPesquisa;
+	}
+	
+	public void setTermoPesquisa(String termoPesquisa) {
+		this.termoPesquisa = termoPesquisa;
 	}
 	
 }
