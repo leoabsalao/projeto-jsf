@@ -1,7 +1,0 @@
-package com.absalao.erp.util;
-
-import java.io.Serializable;
-
-public class TransacionalInterceptor implements Serializable {
-
-}

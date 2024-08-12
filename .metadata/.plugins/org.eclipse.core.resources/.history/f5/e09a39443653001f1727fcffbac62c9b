@@ -1,5 +1,0 @@
-package com.absalao.erp.util;
-
-public interface Transacional {
-
-}
