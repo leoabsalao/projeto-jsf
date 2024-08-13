@@ -39,8 +39,17 @@
     <fullyQualifiedTypeName name="javax.faces.application.FacesMessage"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="com.absalao.erp.util.FacesMessages"/>
-    <fullyQualifiedTypeName name="javax.inject.Inject"/>
     <fullyQualifiedTypeName name="com.absalao.erp.model.TipoEmpresa"/>
-    <fullyQualifiedTypeName name="com.absalao.erp.model.RamoAtividade"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="javax.faces.convert.FacesConverter"/>
+    <fullyQualifiedTypeName name="com.absalao.erp.model.RamoAtividade"/>
+    <fullyQualifiedTypeName name="com.absalao.erp.repository.RamoAtividades"/>
+    <fullyQualifiedTypeName name="javax.faces.convert.Converter"/>
+    <fullyQualifiedTypeName name="com.absalao.erp.controller.RamoAtividadeConverter"/>
+    <fullyQualifiedTypeName name="javax.inject.Inject"/>
+    <fullyQualifiedTypeName name="com.absalao.erp.service.CadastroEmpresaService"/>
+    <fullyQualifiedTypeName name="javax.validation.constraints.Size"/>
+    <fullyQualifiedTypeName name="javax.validation.constraints.Past"/>
+    <fullyQualifiedTypeName name="javax.validation.constraints.NotNull"/>
+    <fullyQualifiedTypeName name="org.hibernate.validator.constraints.br.CNPJ"/>
 </qualifiedTypeNameHistroy>
