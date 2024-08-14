@@ -45,11 +45,13 @@
     <fullyQualifiedTypeName name="com.absalao.erp.model.RamoAtividade"/>
     <fullyQualifiedTypeName name="com.absalao.erp.repository.RamoAtividades"/>
     <fullyQualifiedTypeName name="javax.faces.convert.Converter"/>
-    <fullyQualifiedTypeName name="com.absalao.erp.controller.RamoAtividadeConverter"/>
     <fullyQualifiedTypeName name="javax.inject.Inject"/>
     <fullyQualifiedTypeName name="com.absalao.erp.service.CadastroEmpresaService"/>
     <fullyQualifiedTypeName name="javax.validation.constraints.Size"/>
     <fullyQualifiedTypeName name="javax.validation.constraints.Past"/>
     <fullyQualifiedTypeName name="javax.validation.constraints.NotNull"/>
     <fullyQualifiedTypeName name="org.hibernate.validator.constraints.br.CNPJ"/>
+    <fullyQualifiedTypeName name="org.primefaces.context.RequestContext"/>
+    <fullyQualifiedTypeName name="com.absalao.erp.controller.RamoAtividadeConverter"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
