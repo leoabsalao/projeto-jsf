@@ -55,7 +55,10 @@
 		  	                 disabled="#{not gestaoEmpresasBean.empresaSelecionada}" 
 		  	                 actionListener="#{gestaoEmpresasBean.excluir}"
 		  	                 update="messages toolbar empresaDataTable"
-		  	                 process="@this"   />
+		  	                 process="@this">
+		  	       <p:confirm icon="ui-icon-alert" header="Confirmar exclusão" 
+		  	       			  message="Deseja excluir a empresa selecionada?" />
+		  	</p:commandButton>
 		  	<span class="ui-separator">
 		  		<span class="ui-icon ui-icon-grip-dotted-vertical" ></span>
 		  	</span>
